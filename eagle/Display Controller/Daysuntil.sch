@@ -7149,7 +7149,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
-<part name="U$2" library="adafruit" deviceset="CERMOSCILL" device="-THM"/>
+<part name="U$2" library="adafruit" deviceset="CERMOSCILL" device="-THM" value="16MHz"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
@@ -7197,16 +7197,16 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="P+24" library="supply1" deviceset="+12V" device=""/>
 <part name="IC5" library="linear" deviceset="78*" device="TV" technology="05"/>
-<part name="C2" library="adafruit" deviceset="C-US" device="050-050X075" value="10uF"/>
-<part name="C3" library="adafruit" deviceset="C-US" device="050-050X075" value="10uF"/>
+<part name="C2" library="adafruit" deviceset="C-US" device="050-050X075" value="100uF"/>
+<part name="C3" library="adafruit" deviceset="C-US" device="050-050X075" value="100uF"/>
 <part name="P+25" library="supply1" deviceset="VCC" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X16" device="" value="Output"/>
 <part name="P+26" library="supply1" deviceset="+12V" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="adafruit" deviceset="C-US" device="025-030X050" value="10uF"/>
-<part name="C4" library="adafruit" deviceset="C-US" device="025-030X050" value="10uF"/>
-<part name="C6" library="adafruit" deviceset="C-US" device="025-030X050" value="10uF"/>
-<part name="C5" library="adafruit" deviceset="C-US" device="025-030X050" value="10uF"/>
+<part name="C1" library="adafruit" deviceset="C-US" device="025-030X050" value="0.1uF"/>
+<part name="C4" library="adafruit" deviceset="C-US" device="025-030X050" value="0.1uF"/>
+<part name="C6" library="adafruit" deviceset="C-US" device="025-030X050" value="0.1uF"/>
+<part name="C5" library="adafruit" deviceset="C-US" device="025-030X050" value="0.1uF"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>

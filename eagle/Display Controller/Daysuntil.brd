@@ -803,7 +803,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="67.183" y="35.56" size="1.778" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="66.9798" y="40.132" size="1.778" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="U$2" library="adafruit" package="CERM_OSC" value="" x="46.99" y="33.02" smashed="yes" rot="R180">
+<element name="U$2" library="adafruit" package="CERM_OSC" value="16MHz" x="46.99" y="33.02" smashed="yes" rot="R180">
 <attribute name="VALUE" x="50.49" y="37.52" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="T1" library="transistor-neu-to92" package="TO92" value="BC337" x="24.13" y="67.31" smashed="yes" rot="R180"/>
@@ -838,28 +838,28 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="26.9748" y="25.4" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="27.94" y="26.67" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C2" library="adafruit" package="C050-050X075" value="10uF" x="22.86" y="27.94" smashed="yes" rot="R270">
+<element name="C2" library="adafruit" package="C050-050X075" value="100uF" x="22.86" y="27.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.479" y="23.749" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="20.701" y="31.115" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="C3" library="adafruit" package="C050-050X075" value="10uF" x="36.83" y="31.75" smashed="yes" rot="R90">
+<element name="C3" library="adafruit" package="C050-050X075" value="100uF" x="36.83" y="31.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.719" y="27.559" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="38.989" y="28.575" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="JP1" library="pinhead" package="1X16" value="Output" x="17.78" y="46.99" rot="R270"/>
-<element name="C1" library="adafruit" package="C025-030X050" value="10uF" x="67.31" y="68.58" smashed="yes">
+<element name="C1" library="adafruit" package="C025-030X050" value="0.1uF" x="67.31" y="68.58" smashed="yes">
 <attribute name="NAME" x="66.294" y="70.485" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="65.024" y="65.532" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="C4" library="adafruit" package="C025-030X050" value="10uF" x="40.64" y="24.13" smashed="yes" rot="R270">
+<element name="C4" library="adafruit" package="C025-030X050" value="0.1uF" x="40.64" y="24.13" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.624" y="27.305" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="38.354" y="19.812" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="C6" library="adafruit" package="C025-030X050" value="10uF" x="35.56" y="52.07" smashed="yes" rot="R90">
+<element name="C6" library="adafruit" package="C025-030X050" value="0.1uF" x="35.56" y="52.07" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.735" y="48.514" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="38.608" y="52.324" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C5" library="adafruit" package="C025-030X050" value="10uF" x="35.56" y="40.64" smashed="yes" rot="R90">
+<element name="C5" library="adafruit" package="C025-030X050" value="0.1uF" x="35.56" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.735" y="37.084" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="38.608" y="40.894" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>

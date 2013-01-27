@@ -7352,7 +7352,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="IC5" gate="A1" x="81.28" y="30.48"/>
 <instance part="C2" gate="G$1" x="66.04" y="22.86"/>
 <instance part="C3" gate="G$1" x="93.98" y="22.86"/>
-<instance part="P+25" gate="VCC" x="93.98" y="38.1"/>
+<instance part="P+25" gate="VCC" x="101.6" y="25.4" rot="R270"/>
 <instance part="P+26" gate="1" x="167.64" y="10.16" rot="R270"/>
 <instance part="GND23" gate="1" x="162.56" y="10.16"/>
 <instance part="C1" gate="G$1" x="48.26" y="96.52" rot="R180"/>
@@ -7565,17 +7565,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="53.34" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="A1" pin="VO"/>
-<wire x1="91.44" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="30.48" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="25.4" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
-<junction x="93.98" y="30.48"/>
-<wire x1="93.98" y1="30.48" x2="93.98" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="P+25" gate="VCC" pin="VCC"/>
-<junction x="93.98" y="25.4"/>
-</segment>
-<segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="IC2" gate="G$1" pin="VCC"/>
 <wire x1="48.26" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
@@ -7583,6 +7572,16 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="48.26" y="93.98"/>
 <junction x="60.96" y="96.52"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="A1" pin="VO"/>
+<wire x1="91.44" y1="30.48" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="25.4" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
+<junction x="93.98" y="25.4"/>
+<pinref part="P+25" gate="VCC" pin="VCC"/>
+<wire x1="93.98" y1="25.4" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
+<junction x="93.98" y="30.48"/>
 </segment>
 </net>
 <net name="N$4" class="0">

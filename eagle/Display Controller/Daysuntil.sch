@@ -7279,6 +7279,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-1X14" device=""/>
 <part name="SL1" library="con-amp-quick" deviceset="M02" device=""/>
+<part name="GND4" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7364,6 +7365,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="GND1" gate="1" x="30.48" y="40.64"/>
 <instance part="JP1" gate="A" x="134.62" y="25.4" rot="R90"/>
 <instance part="SL1" gate="G$1" x="162.56" y="22.86" rot="R270"/>
+<instance part="GND4" gate="1" x="81.28" y="15.24"/>
 </instances>
 <busses>
 </busses>
@@ -7479,6 +7481,16 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="30.48" y1="43.18" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <junction x="30.48" y="43.18"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="17.78" x2="81.28" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="IC5" gate="A1" pin="GND"/>
+<wire x1="81.28" y1="17.78" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="17.78" x2="81.28" y2="17.78" width="0.1524" layer="91"/>
+<junction x="81.28" y="17.78"/>
+<pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -7942,17 +7954,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="P+26" gate="1" pin="+12V"/>
 <wire x1="165.1" y1="10.16" x2="165.1" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="SL1" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="66.04" y1="17.78" x2="81.28" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="A1" pin="GND"/>
-<wire x1="81.28" y1="17.78" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="17.78" x2="81.28" y2="17.78" width="0.1524" layer="91"/>
-<junction x="81.28" y="17.78"/>
 </segment>
 </net>
 <net name="1" class="0">

@@ -45,6 +45,7 @@ void loop () {
     currentval = 365*currentyear + currentyear/4 - currentyear/100 + currentyear/400 + currentday + (153*currentmonth+8)/5;
     christmasday = 365*unchangedyear + unchangedyear/4 - unchangedyear/100 + currentyear/400 + 25 + (153*12 + 8)/5;
     diff = christmasday - currentval;
+    Serial.println(diff);
     digit[0] = (diff/10)%10;
     digit[1] = diff%10;
     seven.sevenSegWrite(digit);
